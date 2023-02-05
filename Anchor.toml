@@ -1,15 +1,15 @@
 [features]
 seeds = false
-[programs.localnet]
-coin_flip = "2WWFGRA4f81ubcjtkh112obV8brzF6nkhBCDGh7Z8hqo"
+[programs.mainnet]
+coin_flip = "EZgGhv1i3LSEA2sVkWr5HHWuS4cwYo6XHqdPopjjNVV5"
 [programs.devnet]
-coin_flip = "2WWFGRA4f81ubcjtkh112obV8brzF6nkhBCDGh7Z8hqo"
+coin_flip = "EZgGhv1i3LSEA2sVkWr5HHWuS4cwYo6XHqdPopjjNVV5"
 
 [registry]
 url = "https://anchor.projectserum.com"
 
 [provider]
-cluster = "localnet"
+cluster = "mainnet"
 wallet = "/Users/mertozgun/.config/solana/id.json"
 
 [scripts]
